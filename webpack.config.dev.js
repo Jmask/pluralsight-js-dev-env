@@ -13,6 +13,9 @@
      publicPath: '/',
      filename: 'bundle.js'
    },
+   devServer: {
+     contentBase: path.resolve(__dirname, 'src')
+   },
    plugins: [],
    module: {
      loaders: [
